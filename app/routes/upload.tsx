@@ -6,7 +6,7 @@ import {useNavigate} from "react-router";
 import {convertPdfToImage} from "~/lib/pdfToImg";
 import {generateUUID} from "~/lib/utils";
 import {prepareInstructions} from "../../constants";
-
+// 1:31:02
 const Upload = () => {
     const {auth, isLoading, fs, ai, kv} = usePuterStore();
     const navigate = useNavigate();
